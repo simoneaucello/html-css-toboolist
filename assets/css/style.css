@@ -28,15 +28,58 @@ header{
 
 main{
   background-color: rgb(246, 248, 249);
-  height: 1000px;
   padding: 50px;
 }
 
 .banner-button{
   max-width: 1000px;
-  margin: 20px auto;
-  padding-top: 50px;
+  height: 80px;
+  margin: 0px auto;
+  padding-top: 30px;
   background-color: white;
   border-radius: 10px 10px 0 0;
   
+}
+
+.task{
+  border: 1px solid rgb(49, 155, 248);
+  background-color: rgb(99, 171, 235);
+  margin: 0px 10px 0 50px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  
+  
+}
+
+.section-add{
+  border: 1px solid rgb(192, 188, 188);
+  margin: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgb(192, 188, 188) ;
+
+}
+
+.todo{
+  max-width: 1000px;
+  margin: 10px auto;
+  height: 1000px;
+  padding-top: 30px;
+  padding-left: 50px;
+  background-color: white;
+}
+
+.arrow{
+
+}
+
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  padding-left: 30px;
+  padding-top: 10px;
 }
