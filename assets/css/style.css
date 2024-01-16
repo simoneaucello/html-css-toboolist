@@ -15,7 +15,6 @@ header{
 
 .container{
   margin: 0px 10px;
-
 }
 
 .header-top img{
@@ -25,14 +24,14 @@ header{
 
 .title{
   display: inline-block;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 h2{
-  display: inline-block;
-  
-
+  display: inline-block;  
 }
+
+/* MAIN  */
 main{
   background-color: rgb(246, 248, 249);
   padding: 50px;
@@ -44,8 +43,7 @@ main{
   margin: 0px auto;
   padding-top: 30px;
   background-color: white;
-  border-radius: 10px 10px 0 0;
-  
+  border-radius: 10px 10px 0 0;  
 }
 
 .task{
@@ -54,9 +52,7 @@ main{
   margin: 0px 10px 0 50px;
   padding: 10px;
   border-radius: 5px;
-  color: white;
-  
-  
+  color: white;  
 }
 
 .section-add{
@@ -65,7 +61,6 @@ main{
   padding: 10px;
   border-radius: 5px;
   color: rgb(192, 188, 188) ;
-
 }
 
 .todo{
@@ -75,6 +70,7 @@ main{
   padding-top: 40px;
   padding-left: 50px;
   background-color: white;
+  border-radius: 0px 0px 10px 10px;
 }
 
 .success-checkmark:after {
@@ -130,8 +126,9 @@ main{
 
 .lime{
   background-color: rgb(181, 200, 73);
-
 }
+
+
 .arrow{
   height: 10px;
   display: inline-block;
@@ -148,8 +145,7 @@ ul li{
   padding-left: 45px;
   padding-top: 10px;
   font-size: 1.2em;
-  margin: 15px;
-  
+  margin: 15px; 
 }
 
 .today{
@@ -158,5 +154,4 @@ ul li{
 
 .upcoming{
   padding-top: 40px;
-
 }
