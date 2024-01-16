@@ -26,6 +26,11 @@ header{
   font-size: 40px;
 }
 
+h2{
+  display: inline-block;
+  
+
+}
 main{
   background-color: rgb(246, 248, 249);
   padding: 50px;
@@ -70,7 +75,41 @@ main{
   background-color: white;
 }
 
+.box{
+  background-color: rgb(99, 171, 235);
+  color: white;
+  font-size: .7em;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.violet{
+  background-color: rgb(150, 116, 221);
+}
+
+.green{
+  background-color: rgb(123, 190, 170);
+
+}
+
+.orange{
+  background-color:rgb(230, 162, 75);
+}
+
+.pink{
+  background-color: rgb(201, 106, 159);
+}
+
+.lime{
+  background-color: rgb(181, 200, 73);
+
+}
 .arrow{
+  height: 10px;
+  display: inline-block;
+  font-size: 2em;
+  vertical-align: top;
+  
 
 }
 
@@ -82,4 +121,15 @@ ul{
 ul li{
   padding-left: 30px;
   padding-top: 10px;
+  font-size: 1.2em;
+  display: ;
+}
+
+.today{
+  padding-top: 40px;
+}
+
+.upcoming{
+  padding-top: 40px;
+
 }
