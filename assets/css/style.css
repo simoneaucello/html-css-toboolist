@@ -1,16 +1,21 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;  
+}
+
+body{
   font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(246, 248, 249);
 }
 
 /* HEADER  */
 
 header{
-  margin: px;
-  height: 80px;
+  margin: 1px;
   padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
 }
 
 .container{
@@ -33,7 +38,6 @@ h2{
 
 /* MAIN  */
 main{
-  background-color: rgb(246, 248, 249);
   padding: 50px;
 }
 
@@ -73,31 +77,32 @@ main{
   border-radius: 0px 0px 10px 10px;
 }
 
-.success-checkmark:after {
-  content: '✔';
-  color: rgb(123, 190, 170);
+/* circles */
+.circle::before{
+  content: '\2713';
   display: inline-block;
-  position: absolute;
-  left:530px; 
-  width: 20px; 
-  height: 20px;
-  text-align: center;
-  border: 2px solid rgb(123, 190, 170);
+  width: 17px;
+  height: 17px;
+  border: 1px solid green;
+  color: green;
+  font-size: .8rem;
   border-radius: 50%;
+  text-align: center;
+  line-height: 15px;
 }
 
-.cross-checkmark:after {
-  content: 'x';
-  color: rgb(217, 82, 65);
-  display: inline-block;
-  position: absolute;
-  left:530px; 
-  width: 20px; 
-  height: 20px;
-  text-align: center;
-  border: 2px solid rgb(217, 82, 65);
-  border-radius: 50%;
+.circle.checked::before{
+  content: '\2713';
+  border: 1px solid green;
+  color: green;
 }
+
+.circle.unchecked::before{
+  content: '\2717';
+  border: 1px solid rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
+}
+
 
 .box{
   background-color: rgb(99, 171, 235);
@@ -142,7 +147,7 @@ ul{
 }
 
 ul li{
-  padding-left: 45px;
+  padding-left: 10px;
   padding-top: 10px;
   font-size: 1.2em;
   margin: 15px; 
