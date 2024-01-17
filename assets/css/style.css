@@ -43,9 +43,9 @@ main{
 
 .banner-button{
   max-width: 1000px;
-  height: 80px;
   margin: 0px auto;
   padding-top: 30px;
+  padding-bottom: 30px;
   background-color: white;
   border-radius: 10px 10px 0 0;  
 }
